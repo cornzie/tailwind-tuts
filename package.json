@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-tuts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cornzie/tailwind-tuts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cornzie/tailwind-tuts/issues"
+  },
+  "homepage": "https://github.com/cornzie/tailwind-tuts#readme",
+  "dependencies": {
+    "tailwindcss": "^1.9.2"
+  }
+}
