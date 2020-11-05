@@ -21642,6 +21642,26 @@ video {
           animation: bounce 1s infinite;
 }
 
+.btn{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.25rem;
+}
+
+.btn-red{
+  --bg-opacity: 1;
+  background-color: #f56565;
+  background-color: rgba(245, 101, 101, var(--bg-opacity));
+}
+
+.btn:hover{
+  --bg-opacity: 1;
+  background-color: #feb2b2;
+  background-color: rgba(254, 178, 178, var(--bg-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
